@@ -1,34 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+    margin: 0;
+}
+
 #product-overview {
     background: url("background.jpg");
     width: 100%;
     height: 528px;
-    padding: 10px;
+    padding: 10px;   
 }
 
 .section-title {
-    color: #2ddf5c;
+    padding: 32px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 30px;
+    vertical-align: middle;
+
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
 }
 
 #product-overview h1 {
-    color: white;
+    color: black;
     font-family: 'Anton', sans-serif;
+}
+
+#product-overview h1::first-letter {
+    color: red;
+    font-size: 50px;
+}
+
+.plan {
+    text-align: center;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.plan--highlighted {
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    font-weight: 500;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+.plan__badge {
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
 }
 
 .main-header {
     width: 100%;
-    background: #2ddf5c;
-    padding: 10px 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 8px 16px;
 }
 
 .main-header > div {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .main-header__brand {
+    color: black;
     text-decoration: none;
     font-weight: bold;
-    font-size: 22px; 
+    font-size: 22px;
 }
 
 .main-nav {
@@ -51,34 +94,33 @@
 
 .main-nav__item a {
     text-decoration: none;
+    color: black;
     font-weight: bold;
+    padding: 3px 0;
 }
 
-.main-nav__item a:hover, 
+.main-nav__item a:hover,
 .main-nav__item a:active {
     color: white;
-    border-bottom: 3px solid white;
+    border-bottom: 5px solid white;
 }
 
 .main-nav__item--cta a {
     color: white;
-    background-color: deeppink;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
     padding: 8px 16px;
-    border-radius: 8px; /* rounds corner */
+    border-radius: 8px;
+    font-weight: lighter;
 }
 
 .main-nav__item--cta a:hover,
 .main-nav__item--cta a:active {
-    color: white;
-    background-color: deeppink;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    background: black;
     border: none;
 }
 
 p::first-letter {
-    color: red;
+    color: black;
     font-size: 20px
-}
-
-* {
-    font-family: sans-serif;
 }
