@@ -1,4 +1,3 @@
-# package-deals
 # yearly-expenses
 ## Table of contents
 * [General info](#general-info)
