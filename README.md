@@ -1,4 +1,4 @@
-# yearly-expenses
+# package-deals
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
@@ -11,6 +11,13 @@ A webpage that shows a music company's package deals.
 Project is created with:
 * HTML/CSS
 * Javascript (to be added)
+
+## Screenshots
+<div align="center">
+    <img src="https://github.com/kimmr/package-deals/blob/master/screenshots/sc1.png" width="400px"</img>
+    <img src="https://github.com/kimmr/package-deals/blob/master/screenshots/sc2.png" width="400px"</img>
+    <img src="https://github.com/kimmr/package-deals/blob/master/screenshots/sc3.png" width="400px"</img>
+</div>
 
 	
 ## Setup
