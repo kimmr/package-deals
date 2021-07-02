@@ -14,9 +14,9 @@ Project is created with:
 
 ## Screenshots
 <div align="center">
-    <img src="https://github.com/kimmr/package-deals/blob/master/screenshots/sc1.png" width="400px"</img>
-    <img src="https://github.com/kimmr/package-deals/blob/master/screenshots/sc2.png" width="400px"</img>
-    <img src="https://github.com/kimmr/package-deals/blob/master/screenshots/sc3.png" width="400px"</img>
+    <img src="https://github.com/kimmr/package-deals/blob/master/screenshots/sc1.png" width="360px"</img>
+    <img src="https://github.com/kimmr/package-deals/blob/master/screenshots/sc2.png" width="360px"</img>
+    <img src="https://github.com/kimmr/package-deals/blob/master/screenshots/sc3.png" width="360px"</img>
 </div>
 
 	
